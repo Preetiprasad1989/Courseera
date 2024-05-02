@@ -15,7 +15,7 @@
 <body>
     <header>
         <nav id="header-nav" class="navbar navbar-expand-lg ">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="navbar-header" id="head">
                     <a href="index.html" class="float-start">
                         <div id="logo-header" alt="logo"></div>
@@ -43,7 +43,7 @@
                                 </a>
                             </li>
                             <li  class="menu-items">
-                                <a href="menuCategories.html">
+                                <a href="index.html">
                                     <span class="material-icons">
                                         category
                                     </span>
@@ -77,38 +77,81 @@
         </nav>
     </header>
     <div id="main-content" class="container">
-        <div class="jumbotron">
-            <img class="" src="./images/restaurant-bg.jpg" width="100%" height="100%"/>
+      <h2 class="text-center">Menu Categories</h2>
+      <div class="text-center">
+        Substituting white rice with brown will cost $1.5 more
+      </div>
+      <section class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12 col-lg-2">
+            <a href="single-category.html">
+                <div class="category-tile">
+                    <img src="./images/menu-rest.jpg" width="200px" height="200px"/>
+                    <span>Lunch</span>
+                </div>
+            </a>
         </div>
-        <div id="home-tiles" class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <a href="menuCategories.html">
-                    <div id="menu-tile" class="">
-                        <span >Menu</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <a href="#">
-                    <div id="specials-tile" class="">
-                        <span >Specials</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
-                <a href="" target="_blank">
-                    <div id="map-tile" class="">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.963399878681!2d77.40827302535374!3d28.510748875731522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce8f0c477b551%3A0x4ea893c6c57ea825!2sSUPERTECH%20ECOCITI%2C%20Sector%20137%2C%20Noida%2C%20Uttar%20Pradesh%20201305!5e0!3m2!1sen!2sin!4v1714553853685!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <span >Maps</span>
-                    </div>
-                </a>
-            </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 col-lg-2">
+            <a href="single-category.html">
+                <div class="category-tile">
+                    <img src="./images/specials.jpg" width="200px" height="200px"/>
+                    <span>Lunch</span>
+                </div>
+            </a>
         </div>
-    </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 col-lg-2">
+            <a href="single-category.html">
+                <div class="category-tile">
+                    <img src="./images/menu-rest.jpg" width="200px" height="200px"/>
+                    <span>Lunch</span>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 col-lg-2">
+            <a href="single-category.html">
+                <div class="category-tile">
+                    <img src="./images/specials.jpg" width="200px" height="200px"/>
+                    <span>Lunch</span>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 col-lg-2">
+            <a href="single-category.html">
+                <div class="category-tile">
+                    <img src="./images/menu-rest.jpg" width="200px" height="200px"/>
+                    <span>Lunch</span>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 col-lg-2">
+            <a href="single-category.html">
+                <div class="category-tile">
+                    <img src="./images/specials.jpg" width="200px" height="200px"/>
+                    <span>Lunch</span>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 col-lg-2">
+            <a href="single-category.html">
+                <div class="category-tile">
+                    <img src="./images/specials.jpg" width="200px" height="200px"/>
+                    <span>Lunch</span>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 ">
+            <a href="single-category.html">
+                <div class="category-tile">
+                    <img src="./images/menu-rest.jpg" width="200px" height="200px"/>
+                    <span>Lunch</span>
+                </div>
+            </a>
+        </div>
+      </section>
+    </div><!--Main ends here-->
     <footer>
         <div class="container-fluid">
             <div class="row">
-                <section id="address" class="col-sm-4">
+                <section id="address" class="col-sm-6">
                     <span>Address:<br/>
                         Ecociti 127, 113 Sector 93,<br/> 
                         Noida<br/>
@@ -116,7 +159,7 @@
                     </span>
                     <hr class="visible-xs"/>
                 </section>
-                <section id="hours" class="col-sm-4">
+                <section id="hours" class="col-sm-6">
                         <span>
                             Opening Hour:<br/>
                         11:00am to 10pm<br/> 
@@ -124,7 +167,7 @@
                         </span>
                         <hr class="visible-xs"/>
                 </section>
-                <section id="testimonials" class="col-sm-4">
+                <section id="testimonials" class="col-sm-6">
                     <span>
                      Comments:<br/>
                      This is the best chinese Restaurent<br/> 
