@@ -1,1 +1,28 @@
-
+@media (max-width: 575px) {
+    .visible-xxs{
+        display: block;
+    }
+}
+@media (min-width: 576px) {
+    .visible-xxs{
+        display: none;
+    }
+}
+.content{
+    background-color: lightsalmon;
+    border-radius: 5px;
+    border-style: none;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;;
+    padding: 20px;
+}
+.content>*{
+    text-align: center;
+}
+.hrWidth{
+    width: 100%;
+}
+.header-color{
+    background-color:beige;
+}
